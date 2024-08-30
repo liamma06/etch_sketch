@@ -1,0 +1,48 @@
+
+body{
+    display:flex;
+    
+    align-content: center;
+    justify-content:center;
+    
+}
+    
+
+#content{
+    margin-top:70px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#bottom{
+    font-size:20px;
+    display:flex;
+    gap: 15px;
+}
+
+#sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#grid{
+    border: solid;
+    height: 700px;
+    width: 700px;
+    aspect-ratio: 1 / 1; /* Keeps it square */
+
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+
+.square{
+    background-color: white;
+    transition: filter 0.3s ease;
+}
