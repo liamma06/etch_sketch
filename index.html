@@ -9,7 +9,6 @@
 <body>
     
     <div id="content">
-        <div id="top"><h1>ETCH Sketch</h1></div>
 
         <div id="bottom">
             <div id="sidebar">
@@ -18,8 +17,18 @@
                     <input type="color" id="colourPicker">
                 </div>
                 <button id="eraser">ERASER</button>
+                <button id="clear">CLEAR</button>
+                <div>
+                    <span>Size:</span>
+                    <input id = "gridSize" type="number" min="1" max="100">
+                </div>
             </div>
-            <div id="grid"></div>
+            <div id="right">
+                <h1>ETCH SKETCH</h1>
+                <h3 id="currentSize"></h3>
+                <div id="grid"></div>
+            </div>
+            
         </div>
         
     </div>

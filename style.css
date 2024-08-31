@@ -6,6 +6,19 @@ body{
     justify-content:center;
     
 }
+
+h1{
+    margin-bottom:5px;
+}
+
+h3{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+button{
+    padding:5px;
+}
     
 
 #content{
@@ -28,6 +41,15 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    gap: 40px;
+}
+
+#right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #grid{
